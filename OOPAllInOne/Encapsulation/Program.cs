@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Product product = new Product();
+            double priceFromUser = -10;
+            //if (priceFromUser>0)
+            //{
+            //    product.Price = priceFromUser;
+            //}
+
+            product.SetPrice(priceFromUser);
+            product.Name = "Ray-Ban Gözlük";
+
+            product.Description = "Description";
+
         }
     }
 }
