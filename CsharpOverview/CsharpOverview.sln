@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{07D98E5F-3522-4AFF-AF7D-98582CB10CB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{F2300B3F-FAF8-47A6-AAFF-DF5BE8E24C8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07D98E5F-3522-4AFF-AF7D-98582CB10CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D98E5F-3522-4AFF-AF7D-98582CB10CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D98E5F-3522-4AFF-AF7D-98582CB10CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2300B3F-FAF8-47A6-AAFF-DF5BE8E24C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2300B3F-FAF8-47A6-AAFF-DF5BE8E24C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2300B3F-FAF8-47A6-AAFF-DF5BE8E24C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2300B3F-FAF8-47A6-AAFF-DF5BE8E24C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
