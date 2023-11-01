@@ -20,6 +20,9 @@
             pointGeneric.Reset();
             Console.WriteLine(pointGeneric);
 
+            // PointGeneric<Random> genericPoint = new PointGeneric<Random>();
+
+
 
         }
 

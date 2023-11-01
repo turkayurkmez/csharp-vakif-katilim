@@ -37,7 +37,7 @@
         }
     }
 
-    public class PointGeneric<T>
+    public class PointGeneric<T> where T : struct, IComparable<T>
     {
         public T X { get; set; }
         public T Y { get; set; }
@@ -53,5 +53,7 @@
         }
 
     }
+
+
 
 }

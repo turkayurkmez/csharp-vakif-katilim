@@ -37,4 +37,5 @@
          * contravariant: metodun dönüş değeridir. Dönen değer base class'a cast edilebilir!
          */
     }
+
 }
