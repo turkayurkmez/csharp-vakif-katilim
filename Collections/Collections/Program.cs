@@ -53,6 +53,8 @@
             var result2 = divideWithTuple(14, 3);
             Console.WriteLine($"bölüm sonucu: {result2.Item1}, kalan: {result2.Item2}");
 
+            var tuple = Tuple.Create<int, int, string, byte, char, bool, double, Tuple<int, int>>(1, 2, "", 3, 'a', false, 1.0, Tuple.Create<int, int>(3, 5));
+
 
 
         }
@@ -77,7 +79,7 @@
 
         static Tuple<int, int> divideWithTuple(int x, int y)
         {
-            Tuple<int, int> tuple = Tuple.Create<int, int>(x / y, x % y);
+            Tuple<int, int> tuple = Tuple.Create(x / y, x % y);
             return tuple;
 
         }
