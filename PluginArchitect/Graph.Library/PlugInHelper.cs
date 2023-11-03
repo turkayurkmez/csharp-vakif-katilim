@@ -51,8 +51,9 @@ namespace Graph.Library
                 plug.Path = file;
                 plug.FullName = type.FullName;
 
-                var instance = Activator.CreateInstance(type);
-                plug.Name = instance.GetType().GetProperty("Name").GetValue(instance).ToString();
+                dynamic instance = Activator.CreateInstance(type);
+                //plug.Name = instance.GetType().GetProperty("Name").GetValue(instance).ToString();
+                plug.Name = instance.Name;
 
             }
 
