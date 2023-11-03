@@ -59,5 +59,12 @@ namespace Graph.Library
             return plug;
 
         }
+
+        public static object CreateInstance(Plug plug)
+        {
+            Assembly assembly = Assembly.LoadFile(plug.Path);
+            var instance = assembly.CreateInstance(plug.FullName);
+            return instance;
+        }
     }
 }

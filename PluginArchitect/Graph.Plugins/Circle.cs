@@ -9,7 +9,7 @@ namespace Graph.Plugins
 
         public void Draw(Graphics graphics, SolidBrush solidBrush, int x, int y, int width, int height)
         {
-            graphics.FillEllipse(solidBrush, x, y, width, width);
+            graphics.FillEllipse(solidBrush, x, y, width, height);
         }
     }
 }
